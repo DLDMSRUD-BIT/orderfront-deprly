@@ -12,7 +12,7 @@
             </div>
         </v-col>
         <v-col class="text-center">
-            <v-btn :to="'/'">java2 shop</v-btn>
+            <v-btn :to="'/'">spring shop</v-btn>
         </v-col>
         <v-col calss="d-flex justify-end">
             <v-btn v-if="isLogined" :to="'/order/cart'" >장바구니{{ totalQuantity }}</v-btn>
